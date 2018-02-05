@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Wonders of Maths</title>
+
+    <style>
+    body {
+      font-family: Helvetica, sans-serif;
+      background-color: darkgray;
+      margin: 0;
+    }
+
+    a:link, a:visited {
+      color: #0645AD;
+    }
+
+    .container {
+      background-color: lightgray;
+      padding: 8px;
+      max-width: 960px;
+      margin: auto;
+    }
+
+    .sum {
+      text-align: center;
+      color: #00BF50;
+      font-style: italic;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Wonders of Maths</h1>
+
+      <h2>Contents</h2>
+      <p>Some odd things about + ..... <a href="#">link</a></p>
+
+      <h2>Some odd things about +</h2>
+      <h3>1 - 1 + 1 - 1</h3>
+      <p>Let's take a look at the following sum:</p>
+      <p class="sum">1 - 1 + 1 - 1 + ...</p>
+      <p>If you think about it, there are actually 3 answers to this.</p>
+      <p>1. If you put the parentheses like this...</p>
+      <p class="sum">(1 - 1) + (1 - 1) + (1 - 1) + ... = 0</p>
+      <p>2. If you put the parentheses like this...</p>
+      <p class="sum">1 + (-1 + 1) + (-1 + 1) + (-1 + 1) + ... = 1</p>
+      <p>3, and weirdest of all. If you put no parentheses at all...</p>
+      <p class="sum">1 - 1 + 1 - 1 + ... = &frac12;</p>
+
+      <p>And why? There are a couple of ways to prove that the answer is &frac12;, but here's my favorite one...</p>
+      <p>If we stop at a 1, the answer is 1.
+         If we stop at a -1, the answer is 0.
+         But if we never stop, what's the answer? It's really simple, we just take the average of the
+         two previous answers! Simple, it's &frac12;.</p>
+    </div>
+  </body>
+</html>

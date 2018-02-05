@@ -1,1 +1,1 @@
-# wondersofmathsbook.com
+# wondersofmathsbook
